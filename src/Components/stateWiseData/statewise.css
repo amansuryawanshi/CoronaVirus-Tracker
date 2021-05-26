@@ -1,0 +1,30 @@
+.thead{
+color: white;
+}
+.confirmed{
+    color: white;
+}
+.confirmed:hover {
+    color: rgba(9, 190, 245, 0.89);
+}
+.recovered{
+    color: white;
+}
+.recovered:hover {
+    color: rgb(150, 241, 12);
+}
+.deaths{
+    color: white;
+}
+.deaths:hover {
+    color: rgb(250, 6, 6);
+}
+.active{
+    color: white;
+}
+.active:hover {
+    color: rgb(250, 8, 177);
+}
+.data{
+    color: white;
+}
