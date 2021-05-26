@@ -3,34 +3,39 @@ body{
     color:white;
 }
 .card{
-    color: black;
-    box-shadow: 3px 3px 10px -3px rgb(224, 240, 4) ;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px -3px rgb(240, 130, 4) ;
 
 }
 .card_name{
     font-weight: bolder;
 }
 .card_recovered{
-    background-color: greenyellow;
-    color: rgb(21, 62, 185);
-
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: transparent;
+    /* color: rgb(21, 62, 185); */
+    color: rgb(150, 241, 12);
 }
 .card_confirmed{
-    background-color: rgb(57, 54, 236);
-    color: rgb(255, 255, 255);
+    background-color: transparent;
+    color: rgba(9, 190, 245, 0.89);
 
 }
 .card_death{
-    background-color: rgb(241, 6, 37);
-    color: rgb(255, 255, 255);
+    background-color: transparent;
+    color: rgb(250, 6, 6);
 
 }
 .card_total{
     font-weight: bold;
 }
 .card_active{
-    background-color: rgb(0, 255, 213);
-    color: black;
+    background-color: transparent;
+    color: rgb(250, 8, 177);
 }
 .live_img{
     width: 200px;
