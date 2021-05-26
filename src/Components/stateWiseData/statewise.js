@@ -20,7 +20,9 @@ const Statewise = () => {
         <section>
             
            <div className="container  mt-5">
-              <table className="table  table-bordered table-responsive ">
+        <h2 className="m-3 text-center">StateWise Data</h2>
+           <div classNmae=" table-responsive ">
+              <table className="table  table-bordered">
                 <thead className="thead">
                     <tr>
                         <th>State</th>
@@ -51,6 +53,7 @@ const Statewise = () => {
                 </tbody>
               </table>
                </div>
+</div>
            
            </section>
         </>
