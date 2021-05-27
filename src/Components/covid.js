@@ -33,31 +33,31 @@ const Covid = () => {
                </div>
                <div className="card  text-center col-md-3 card_recovered m-2">
                             <p className ="card_name ">
-                             <i class="fab fa-accusoft"></i> RECOVERED
+                            <i class="far fa-heart"></i> RECOVERED
                             </p>
                             <p className="card_total card_small ">{data.recovered}</p>
                </div>
                <div className="card  text-center col-md-3 m-2 card_confirmed">
                             <p className ="card_name">
-                                CONFIRMED
+                             <i class="fas fa-user-plus"></i>   CONFIRMED
                             </p>
                             <p className="card_total card_small">{data.confirmed}</p>
                </div>
                <div className="card text-center col-md-3  m-2 card_death">
                             <p className ="card_name">
-                                DEATHS
+                             <i class="fas fa-heartbeat"></i>   DEATHS
                             </p>
                             <p className="card_total card_small">{data.deaths}</p>
                </div>
                <div className="card text-center col-md-3 m-2 card_active">
                             <p className ="card_name">
-                                ACTIVE
+                              <i class="fas fa-plus"></i>  ACTIVE
                             </p>
                             <p className="card_total card_small">{data.active}</p>
                </div>
                <div className="card  text-center col-md-3  m-2">
                             <p className ="card_name">
-                                LAST UPDATED
+                             <i class="far fa-clock"></i>   LAST UPDATED
                             </p>
                             <p className="card_total card_small">{data.lastupdatedtime}</p>
                             </div>
