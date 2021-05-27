@@ -33,7 +33,7 @@ const Covid = () => {
                </div>
                <div className="card  text-center col-md-3 card_recovered m-2">
                             <p className ="card_name ">
-                                RECOVERED
+                              <FontAwesomeIcon icon={["fal", "coffee"]} />  RECOVERED
                             </p>
                             <p className="card_total card_small ">{data.recovered}</p>
                </div>
